@@ -1,0 +1,15 @@
+[package]
+authors = ["Sebastian Menski <sebastian@menski.org>"]
+name = "foobar"
+version = "0.1.0"
+
+[dependencies]
+chrono = "0.3.1"
+error-chain = "0.10.0"
+serde = "1.0.8"
+serde_derive = "1.0.8"
+serde_json = "1.0.2"
+
+[dependencies.derive_builder]
+features = ["private_fields", "struct_default"]
+version = "0.4.7"
